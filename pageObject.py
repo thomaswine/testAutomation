@@ -28,7 +28,7 @@ class Navigation:
     def __init__(self,driver):
         self.driver=driver
         self.workItemBtn = '//*[@id="dashmenu"]/div[2]/a/button'
-        self.url = "https://acme-test.uipath.com/login"
+        self.url = "test_page_url"
         
     def navigationToWorkItem(self):
         self.driver.find_element(By.XPATH, self.workItemBtn).click()
